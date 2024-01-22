@@ -33,12 +33,61 @@
 </head>
 
 <body class="font-manrope">
-    <header class="my-10 lg:my-24">
-        <nav>
+    <header class="container mx-auto my-10 lg:my-12">
+        <!-- navbar section -->
+        <nav class="lg:w-[1170px]">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>About</a>
+                            </li>
+                            <li><a>Pages</a></li>
+                            <li>
+                                <a>Blog</a>
+
+                            </li>
+                            <li>
+                                <a>Contact</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-3xl text-black">Hockey <span class="text-red-600 text-3xl">’</span>
+                        s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>About</a>
+
+                        </li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-4 lg:gap-8">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                    <a class="btn">Get Ticket</a>
+                </div>
+            </div>
 
         </nav>
         <!-- banner section -->
-        <section class="container mx-auto">
+        <section class="mx-5 mt-16">
             <div class="relative">
                 <div class="">
                     <img src="Images/1.png" alt="">
@@ -72,7 +121,92 @@
         </section>
 
     </header>
-    <main>
+    <main class="container mx-auto">
+        <!-- club section -->
+        <section class="my-8 lg:my-24">
+            <div class="mx-5">
+
+                <h1 class="text-[36px] font-extrabold text-black lg:ml-[360px]">Professional Hockeys Club</h1>
+                <p class="font-medium mt-5 lg:w-[607px] lg:ml-[360px]">
+                    The Professional Hockey Club boasts skilled athletes, intense rivalries, and thrilling matches,
+                    captivating fans with speed, skill, and precision.</p>
+            </div>
+            <div class="lg:flex mt-12">
+                <div>
+                    <div class="card lg:w-80 bg-base-100 items-center">
+                        <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Prayer Facility</h2>
+                            <p>
+                                Prayer facility offers serenity, welcoming all to seek spiritual solace.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card lg:w-80 bg-base-100 items-center">
+                        <div class="radial-progress text-green-600" style="--value:95;" role="progressbar">95%</div>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Experienced Coach</h2>
+                            <p>
+
+                                Experienced coach guides with wisdom, shaping champions with skill and expertise.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card lg:w-80 bg-base-100 items-center">
+                        <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Senior Player</h2>
+                            <p>
+                                Senior player showcases seasoned talent, contributing leadership and skill on-field.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card lg:w-80 bg-base-100 items-center">
+                        <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Training Ground</h2>
+                            <p>
+                                Training ground fosters excellence, shaping athletes for triumphs and victories.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!-- club section -->
+        <section class="my-8 lg:my-24">
+            <div class="">
+                <h1 class="text-[36px] font-extrabold text-black lg:ml-[380px]">Program Sections</h1>
+                <p class="font-medium m-5 text-black lg:w-[607px] lg:ml-[360px]">
+                    Program sections cater to diverse needs, offering specialized modules, ensuring comprehensive learning and development for participants in various domains.</p>
+
+            </div>
+            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 flex-1">
+                <div class="rounded-xl lg:h-[338px] bg-gradient-to-r from-red-100 to-amber-100"></div>
+                <div class="rounded-xl lg:h-[338px] bg-gradient-to-r from-red-100 to-amber-100"></div>
+                <div class="col-span-2 rounded-xl lg:h-[450px] bg-gradient-to-r from-red-100 to-amber-100"></div>
+
+            </div>
+
+        </section>
 
     </main>
     <footer>
